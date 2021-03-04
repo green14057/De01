@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{font-family: word;
+src: url(../font/Montserrat-Regular.ttf);}
+@font-face
+{font-family: light;
+src: url(../font/Montserrat-Light.ttf);}
+@font-face
+{font-family: bold;
+src: url(../font/Montserrat-Bold.ttf);}
+@font-face
+{font-family: medium;
+src: url(../font/Montserrat-Medium.ttf);}
+.Biggest
+{width: 1280px;
+height: 4300px;
+background-color: #3265da;}
+
+    .Bigger
+	{width: 1280px;
+	height: 800px;
+	background: url(../Images/bìa.png) no-repeat;}
+     	.Menu
+		{width: 1280px;
+		height: 90px;}
+			.Menu ul
+			{list-style: none;
+			z-index: 10;}
+			.Menu ul li
+			{float: left;
+			padding: 53px 23px;
+			top: 0px;}
+			.Menu ul li a
+			{text-decoration: none;
+			position: relative;
+			top: 0px;
+			left: 295px;
+			color: white;
+			font-family: Word;
+			font-size: 13px;}
+            .Menu Button
+			{width: 200px;
+			height: 50px;
+			position: absolute;
+			top: 55px;
+			left: 915px;
+			border-radius: 50% ;
+			border: 2px #FFFFFF solid;
+			background: url(../Images/Button.png);}
+		  
+			.Text
+			{width: 500px;
+			height: 250px;
+			position: relative;
+			top: 195px;
+			left: 135px;
+			background-color: none;}
+			.Text ul
+			{list-style: none;
+			z-index: 5;}
+			.Text ul li
+			{padding: 0px;
+			color: black;
+			font-family: light;
+			font-size: 10px;}
+
+			.Textbox
+			{width: 320px;
+			height: 55px;
+			position: absolute;
+			left: 25px;
+			background-color: none;}
+				.Textbox Button
+				{width: 100px;
+				height: 40px;
+				background-color: #fdce76;
+				border-radius: 50%;
+				margin: 0px 15px;
+				border: 1px #fdce76 solid;}
+			
+
+	 .Logos
+	{width: 1280px;
+	height: 445px;
+	background-color: #3265da;
+	position: relative;}
+		.Bigbox
+		{width: 900px;
+		height: 280px;
+		position: absolute;
+		top: 82px;
+		left: 190px;}
+		.Box
+		{width: 215px;
+		height: 280px;
+		background-color: #4675dd;
+		float: left;
+		margin: 0px 5px;}
+		.Box img
+		{position: relative;
+		top: 20px;
+		left: 65px;}
+		.Box button
+		{background-color:#4675dd;
+		border: 1px #4675dd solid;}
+
+	.Bottom
+	{width: 1280px;
+	height: 900px;
+	background: url(../Images/bottom.png);
+	position: relative;}
+		.Hinh
+		{width: 1090px;
+		height: 340px;
+		position: absolute;
+		top: 150px;}	
+			.Hinh img
+			{position: absolute;
+			left: 605px;}
+			.Hinhtext
+			{width: 390px;
+			height: 340px;
+			position: absolute;
+			left: 190px;}
+			.Hinhtext ul
+			{list-style: url(../Images/9.png);}
+			.Hinhtext ul li
+			{position: absolute;
+			padding: 0px 5px;
+			left: 17px;
+			color: black;
+			font-family: light;}
+			.Hinhtext button
+			{width: 120px;
+			height: 35px;
+			border-radius: 50%;
+			background-color: #fdce76;
+			border: 1px #fdce76 solid;
+			position: absolute;
+			top: 220px;}
+			Hr
+			{position: absolute;
+		     top: 400px;
+			left: 185px;}
+		.Halfbottom
+		{width: 1000px;
+		height: 130px;
+		position: absolute;
+		top: 625px;
+		left: 155px;}
+			.Halfbottom_01
+			{width: 295px;
+			height: 110px;
+			float: left;
+			margin: 0px 30px 0px 0px;}
+			.Halfbottom_01 ul 
+			{list-style: none;}
+			.Halfbottom_01 ul li 
+			{position: relative;
+			top: 0px;
+			left: 50px;
+			color: black;
+			font-family: light;}
+			.Halfbottom_01 img
+			{position: absolute;
+			top: 8px;}
+
+	.Solieu
+	{width: 1280px;
+	height: 280px;
+	background:url(../Images/2.png);}
+		.solieuso
+		{width: 1000px;
+		height: 150px;
+		position: relative;
+		top: 100px;
+		left: 195px;}
+			.solieuso_01
+			{width: 200px;
+			height: 120px;
+			float: left;
+			position: relative;
+			margin: 0px 35px 0px 0px;}
+
+	.How
+	{width: 1280px;
+	height: 560px;
+	background: url(../Images/11.png);}
+		.How_01	
+		{width: 485px;
+		height: 340px;
+		float: left;
+		position: relative;
+		left: 165px;
+		margin: 75px 0px 0px 30px;
+		background: url(../Images/11.png);}
+		.How_01 ul li
+		{position: absolute;
+		left: 17px;
+		color: black;
+		font-family: light;}
+		.How_01 ul
+		{list-style: url(../Images/9.png);}
+		.How_01 ul li1
+		{position: absolute;
+		left: 17px;
+		color: black;
+		font-family: bold;
+		font-size: 14px;}
+
+	.What
+	{width: 1280px;
+	height: 265px;
+	background:url(../Images/5.png);}
+
+	.Clients
+	{width: 1280px;
+	height: 245px;
+	background: url(../Images/6.png);}
+
+	.Nearbottom
+	{width: 1280px;
+	height: 485px;
+	background-color: #3265da;}
+		.Nearbox
+		{width: 1090px;
+		height: 120px;
+		position: relative;
+		top: 375px;
+		left: 190px;}
+			.Nearbox_01
+			{width: 185px;
+			height: 120px;
+			float: left;
+			position: relative;
+			margin: 0px 60px;}
+
+	.Last
+	{width: 1280px;
+	height: 315px;
+	background: url(../Images/111.png);}
+		.lastbox
+		{width: 590px;
+		height: 45px;
+		position: relative;
+		top: 115px;
+		left: 342px;}
+		.lastbox ul
+		{list-style: none;}
+		.lastbox ul li 
+		{float: left;
+		position: relative;
+		padding: 5px 20px;}
+		.lastbox ul li a
+		{text-decoration: none;
+		color: white; 
+		font-size: 12px;
+		font-family: Word;}
+		.Circle
+		{width: 300px;
+		height: 70px;
+		position: relative;
+		top: 115px;
+		left: 505px;}	
+			.Circle_01
+			{width: 50px;
+			height: 50px;
+			background: url(../Images/222.png);
+			float: left;
+			margin: 5px 4px 0px 0px;
+			border-radius: 100%;}
+		.Bigcircle
+		{width: 60px;
+		height: 60px;
+		background:url(../Images/333.png);
+		position: relative;
+		top: 120px;
+		left: 25px;
+		border-radius: 100%;}
+
+
+		
+	
+		
+			
+
+
+
+
+
+
